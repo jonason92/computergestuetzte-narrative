@@ -1,1 +1,23 @@
-https://curvenote.com/oxa:Eh6WvY9NT46Ds4lE3OqJ/fg97vLEiR1dtnqgL8oQj.5
+name: curvenote
+on:
+  pull_request:
+    branches: ['main']
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  publish:
+    uses: curvenote/actions/.github/workflows/publish.yml@v1
+    with:
+      monorepo: true
+      id-pattern-regex: '^<MYJOURNAL-COLLECTION>-(?:[a-zA-Z0-9-_]{3,15})$'
+      enforce-single-folder: true
+      preview-label: paper
+      submit-label: true
+      venue: '<VENUE>'
+      collection: '<COLLECTION>'
+      kind: '<SUBMISSION-KIND>'
+      path: papers/*
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
