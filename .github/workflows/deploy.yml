@@ -11,3 +11,6 @@ jobs:
         uses: curvenote/action-deploy@v1
         env:
           CURVENOTE_TOKEN: ${{ secrets.CURVENOTE_TOKEN }}
+          
+          - name: Curvenote Deploy
+  uses: curvenote/action-deploy@v1.0.2
