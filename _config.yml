@@ -1,0 +1,18 @@
+title: Your Research Platform
+description: A platform for my research, publications, and projects
+baseurl: ""
+url: "https://jonason92.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima # Starting with a simple theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+  publications:
+    output: true
