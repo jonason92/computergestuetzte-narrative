@@ -1,0 +1,21 @@
+---
+layout: publication
+title: "Publication Title"
+authors: "Your Name, Collaborator Name"
+journal: "Journal Name"
+date: 2023-01-15
+pdf: "/publications/pdfs/paper-name.pdf"
+---
+
+## Abstract
+This is the abstract of the publication that summarizes the key findings and contributions.
+
+## Citation
+```
+Author, A., & Collaborator, B. (2023). Publication Title. Journal Name, Volume(Issue), Pages.
+```
+
+## Links
+- [Journal Page](https://doi.org/xx.xxxx/xxxxx)
+- [Related Project](../projects/project-name)
+- [Data Repository](https://github.com/jonason92/data-repo)

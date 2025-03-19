@@ -1,0 +1,27 @@
+---
+layout: page
+title: Jupyter Notebooks
+permalink: /notebooks/
+---
+
+# Jupyter Notebooks
+
+This page provides access to interactive Jupyter notebooks for various research projects.
+
+## Analysis Notebooks
+
+- [Data Preprocessing](notebooks/static/data_preprocessing.html)
+- [Exploratory Data Analysis](notebooks/static/exploratory_analysis.html)
+- [Model Training and Evaluation](notebooks/static/model_training.html)
+
+## Tutorial Notebooks
+
+- [Introduction to Data Science](notebooks/static/intro_data_science.html)
+- [Machine Learning Basics](notebooks/static/ml_basics.html)
+
+## How to Use These Notebooks
+
+You can either:
+1. View the static HTML versions linked above
+2. Download the original .ipynb files from the [GitHub repository](https://github.com/yourusername/jonason92/notebooks)
+3. Clone the repository and run the notebooks locally

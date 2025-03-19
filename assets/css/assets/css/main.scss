@@ -1,0 +1,160 @@
+---
+---
+
+@import "path/to/minima";
+
+// Custom styles
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  margin-right: 1.5rem;
+  color: #555;
+  text-decoration: none;
+  
+  &:hover {
+    color: #000;
+  }
+}
+
+.hero {
+  padding: 4rem 0;
+  background-color: #f0f5ff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.publication-list {
+  list-style-type: none;
+  padding: 0;
+  
+  li {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.publication-date {
+  color: #666;
+}
+
+.pdf-link {
+  margin-left: 0.5rem;
+  color: #ff3366;
+}
+
+.view-all {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  
+  &:hover {
+    background-color: #0052a3;
+  }
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.site-footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a {
+  margin-left: 1rem;
+  color: #555;
+  
+  &:hover {
+    color: #000;
+  }
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.book-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.repo-list {
+  list-style-type: none;
+  padding: 0;
+  
+  li {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+}

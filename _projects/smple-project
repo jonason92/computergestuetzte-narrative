@@ -1,0 +1,21 @@
+---
+layout: project
+title: "Project Name"
+excerpt: "Brief description of the project that appears on the homepage."
+---
+
+# Project Name
+
+## Overview
+Detailed description of the project, its goals, and significance.
+
+## Methods
+Description of the methods used in this research project.
+
+## Results
+Summary of key findings and results.
+
+## Resources
+- [GitHub Repository](https://github.com/jonason92/project-repo)
+- [Related Publication](../publications/paper-name)
+- [Interactive Notebook](../notebooks/notebook-name)
